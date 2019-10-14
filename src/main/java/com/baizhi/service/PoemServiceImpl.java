@@ -67,6 +67,7 @@ public class PoemServiceImpl {
             list1.add("authordes");
             list1.add("origin");
             list1.add("categoryid");
+            system.out.println("111");
             for (String s1 : list1) {
                 if (highlightFields.get(s1) == null) {
                     map.put(s1, sourceAsMap.get(s1));
